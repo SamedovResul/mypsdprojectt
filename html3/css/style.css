@@ -1,0 +1,410 @@
+.backgroundphoto{
+    background-image:url(../img/©daniel.chodusov1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    opacity: 0.5;
+}
+
+
+
+.maincontainer1{
+    max-width: 1024px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:  20px;
+}
+
+
+.a1{
+    color: white !important;
+}
+.a2{
+    color: red !important;
+}
+
+.nav-tog{
+    background-color: white;
+}
+
+.maindiv{
+    text-align: right;
+}
+
+.maindiv ul {
+    margin-left: 75%;
+} 
+@media(max-width:1200px){
+    .maindiv ul {
+        margin-left: 70%;
+    }
+}
+
+@media(max-width:991px){
+    .maindiv ul {
+        margin: auto;
+    }
+
+    .maindiv{
+        text-align: left;
+    }
+
+    .maindiv ul{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.maincontainer2{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media(max-width:860px){
+    .maincontainer2{
+        height: 300px;
+    }
+}
+
+.minicontainer{
+    color: white;
+}
+
+.minicontainer h2 {
+    font-size: 50px;
+    font-weight: 400;
+    border-bottom: white 1px solid;
+}
+
+@media(max-width:767px){
+    .minicontainer h2 {
+        font-size: 40px;
+    }
+    .minicontainer h2 {
+        font-size: 30px;
+    }
+    .minicontainer h2{
+        font-size: 20px;
+    }
+}
+
+.btn {
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: red;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+}
+
+.md12{
+    text-align: center;
+    position: relative;
+}
+
+.maincontainer3{
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+@media (max-width:770px){
+    .maincontainer3{
+        height: 550px;
+    }
+    @media (max-width: 499px){
+        .maincontainer3{
+            height: 600px;
+        }
+    }
+    @media(max-width: 345px){
+        .maincontainer3{
+            height: 720px;
+        }
+    }
+}
+
+.minicontainer2{
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.minicontainer2 h3 {
+    color: rgb(245, 79, 79) !important;
+    margin-bottom: 35px;
+    font-weight: 800;
+}
+
+@media(max-width:345px){
+    .minicontainer2 h3 {
+        font-weight: 500 ;
+        font-size: 25px;
+    }
+}
+
+.minicontainer2 p {
+    color: #95A5A6;
+}
+
+.minicontainer3{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.minicontainer3 h4 {
+    color: rgb(245, 79, 79);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.minicontainer3 p {
+    color: #95A5A6;
+    font-size: 13px;
+}
+
+.maincontainer4{
+    height: 360px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.maincontainer5{
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive{
+    height: 279px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+}
+
+.box{
+    height: 210px;
+    width: 350px;
+    border: 1px solid black;
+    background-image: url(../img/photo2.jpg);
+    background-size:cover;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box2{
+    background-color: red;
+    width: 350px;
+    height: 73px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph{
+    color: white;
+    font-size: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.paragraph2{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: 10px;
+    
+}
+
+.icon{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background-color: red;
+    padding: 6px;
+}
+
+.btnclss{
+    height: 100px;
+    border-bottom: 1px solid rgb(185, 190, 190);
+    display: flex;
+    align-items: center;
+}
+
+.btn2{
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: red;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.maincontainer6{
+    height: 150px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.maincontainer6 h4{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    font-weight: 400;
+    color: red;
+}
+
+.maincontainer7{
+    height: 460px;
+    text-align: center;
+    
+}
+
+.input{
+    width: 35%;
+    margin: 8px;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: rgb(201, 204, 204);
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+}
+@media(max-width:574px){
+    .input{
+        font-size: 20px;
+    }
+}
+
+.input2{
+    width: 72%;
+    height: 220px;
+    background-color: rgb(201, 204, 204);
+    border: none;
+    padding-left: 10px;
+    padding-bottom: 180px;
+    font-size: 25px;
+}
+
+@media(max-width:550px){
+    .input2{
+        font-size: 20px;
+        width: 73%;
+    }
+    @media (max-width:378px) {
+        .input2{
+            font-size: 15px;
+        }
+    }
+}
+
+.maincontainer8{
+    display: flex;
+    height: 250px;
+    
+}
+
+.minibox{
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+
+.form{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 80px;
+    border: 1px solid rgb(248, 96, 96);
+    border-width: 5px;
+    padding-top: 15px;
+    position: absolute;
+    top: -15%;
+    left: 53%;
+}
+
+
+@media (max-width:767px){
+    .responsive2{
+    width: 30px;
+    height: 25px;
+    }
+    @media (max-width:376px) {
+        .responsive2{
+            width: 20px;
+            height: 15px;
+        }
+    }
+}
+
+
+@media(max-width:991px){
+    .form{
+    position: absolute;
+    top: -15%;
+    left: 45%;
+    }
+    @media (max-width:767px) {
+        .form{
+        position: absolute;
+        top: -15%;
+        left: 40%;
+        width: 70px;
+        height: 60px;
+        }
+    }
+    @media (max-width:376px) {
+        .form{
+        width: 60px;
+        height: 55px;
+        position: absolute;
+        top: -15%;
+        left: 35%;
+        }
+    }
+
+}
+
+.lastcontainer{
+    background-color: red;
+}
+
+.lasthead{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.lasthead h6{
+    color: white;
+}
+
+.lasthead2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    text-align: right;
+}
+
+.lasthead2 h6{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+}
